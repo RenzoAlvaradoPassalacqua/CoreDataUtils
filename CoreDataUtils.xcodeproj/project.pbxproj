@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		83F4B20C221C69BB0081F8ED /* CoreDataUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F4B20A221C69BB0081F8ED /* CoreDataUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F4B221221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83F4B216221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld */; };
+		94E71B881BC5F4BACE3B8869 /* Pods_CoreDataUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087409C3FD54383973CCBFC1 /* Pods_CoreDataUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		087409C3FD54383973CCBFC1 /* Pods_CoreDataUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D92981A0554484C341ADD54 /* Pods-CoreDataUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataUtils/Pods-CoreDataUtils.release.xcconfig"; sourceTree = "<group>"; };
 		83F4B207221C69BB0081F8ED /* CoreDataUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F4B20A221C69BB0081F8ED /* CoreDataUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataUtils.h; sourceTree = "<group>"; };
 		83F4B20B221C69BB0081F8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F4B212221C87480081F8ED /* CoreDataUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataUtils.swift; sourceTree = "<group>"; };
+		83F4B215221C88760081F8ED /* AppConfigs+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppConfigs+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		83F4B217221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmigoSecretoCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		83F4B218221C88760081F8ED /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = "<group>"; };
+		83F4B219221C88760081F8ED /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		83F4B21A221C88760081F8ED /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		83F4B21B221C88760081F8ED /* AppConfigs+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppConfigs+CoreDataClass.swift"; sourceTree = "<group>"; };
+		83F4B21C221C88760081F8ED /* Draw+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Draw+CoreDataClass.swift"; sourceTree = "<group>"; };
+		83F4B21D221C88760081F8ED /* Draw+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Draw+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		83F4B21E221C88760081F8ED /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		83F4B21F221C88760081F8ED /* RegisterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterData.swift; sourceTree = "<group>"; };
+		8B493B765712BF79CF4C6CA3 /* Pods-CoreDataUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataUtils/Pods-CoreDataUtils.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E71B881BC5F4BACE3B8869 /* Pods_CoreDataUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DA362350B0130D97CB8F3AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087409C3FD54383973CCBFC1 /* Pods_CoreDataUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22084CF31F36A235532222D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B493B765712BF79CF4C6CA3 /* Pods-CoreDataUtils.debug.xcconfig */,
+				6D92981A0554484C341ADD54 /* Pods-CoreDataUtils.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		83F4B1FD221C69BB0081F8ED = {
 			isa = PBXGroup;
 			children = (
 				83F4B209221C69BB0081F8ED /* CoreDataUtils */,
 				83F4B208221C69BB0081F8ED /* Products */,
+				22084CF31F36A235532222D6 /* Pods */,
+				1DA362350B0130D97CB8F3AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +82,29 @@
 		83F4B209221C69BB0081F8ED /* CoreDataUtils */ = {
 			isa = PBXGroup;
 			children = (
+				83F4B214221C88760081F8ED /* DataModel */,
+				83F4B212221C87480081F8ED /* CoreDataUtils.swift */,
 				83F4B20A221C69BB0081F8ED /* CoreDataUtils.h */,
 				83F4B20B221C69BB0081F8ED /* Info.plist */,
 			);
 			path = CoreDataUtils;
+			sourceTree = "<group>";
+		};
+		83F4B214221C88760081F8ED /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				83F4B215221C88760081F8ED /* AppConfigs+CoreDataProperties.swift */,
+				83F4B216221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld */,
+				83F4B218221C88760081F8ED /* Event+CoreDataClass.swift */,
+				83F4B219221C88760081F8ED /* Person+CoreDataClass.swift */,
+				83F4B21A221C88760081F8ED /* Person+CoreDataProperties.swift */,
+				83F4B21B221C88760081F8ED /* AppConfigs+CoreDataClass.swift */,
+				83F4B21C221C88760081F8ED /* Draw+CoreDataClass.swift */,
+				83F4B21D221C88760081F8ED /* Draw+CoreDataProperties.swift */,
+				83F4B21E221C88760081F8ED /* Event+CoreDataProperties.swift */,
+				83F4B21F221C88760081F8ED /* RegisterData.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F4B20F221C69BB0081F8ED /* Build configuration list for PBXNativeTarget "CoreDataUtils" */;
 			buildPhases = (
+				09D86EEA36B5581DFF25E145 /* [CP] Check Pods Manifest.lock */,
 				83F4B202221C69BB0081F8ED /* Headers */,
 				83F4B203221C69BB0081F8ED /* Sources */,
 				83F4B204221C69BB0081F8ED /* Frameworks */,
@@ -95,6 +151,7 @@
 				TargetAttributes = {
 					83F4B206221C69BB0081F8ED = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,11 +182,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D86EEA36B5581DFF25E145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDataUtils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83F4B203221C69BB0081F8ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F4B221221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +343,9 @@
 		};
 		83F4B210221C69BB0081F8ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B493B765712BF79CF4C6CA3 /* Pods-CoreDataUtils.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Belatrixsf.CoreDataUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,7 +370,9 @@
 		};
 		83F4B211221C69BB0081F8ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D92981A0554484C341ADD54 /* Pods-CoreDataUtils.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -328,6 +416,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83F4B216221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83F4B217221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 83F4B217221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodel */;
+			path = AmigoSecretoCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 83F4B1FE221C69BB0081F8ED /* Project object */;
 }

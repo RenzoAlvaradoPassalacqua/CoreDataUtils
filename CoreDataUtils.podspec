@@ -20,7 +20,7 @@ s.author = { "Renzo Alvarado" => "ralvarado@belatrixsf.com" }
  s.homepage = "https://github.com/RenzoAlvaradoPassalacqua/CoreDataUtils"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
- s.source = { :git => "https://github.com/RenzoAlvaradoPassalacqua/CoreDataUtils",
+ s.source = { :git => "https://github.com/RenzoAlvaradoPassalacqua/CoreDataUtils.git",
  :tag => "#{s.version}" }
   
 
@@ -38,4 +38,4 @@ s.resources = "CoreDataUtils/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 # 10
 s.swift_version = "4.2"
 
-end
+en.gitd

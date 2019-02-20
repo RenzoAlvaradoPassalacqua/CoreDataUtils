@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83F4B20C221C69BB0081F8ED /* CoreDataUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F4B20A221C69BB0081F8ED /* CoreDataUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83F4B221221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83F4B216221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld */; };
+		83F4B22B221D96F30081F8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F4B22A221D96F30081F8ED /* AppDelegate.swift */; };
 		94E71B881BC5F4BACE3B8869 /* Pods_CoreDataUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087409C3FD54383973CCBFC1 /* Pods_CoreDataUtils.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		83F4B21D221C88760081F8ED /* Draw+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Draw+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		83F4B21E221C88760081F8ED /* Event+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		83F4B21F221C88760081F8ED /* RegisterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterData.swift; sourceTree = "<group>"; };
+		83F4B22A221D96F30081F8ED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B493B765712BF79CF4C6CA3 /* Pods-CoreDataUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDataUtils.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreDataUtils/Pods-CoreDataUtils.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 			children = (
 				83F4B214221C88760081F8ED /* DataModel */,
 				83F4B212221C87480081F8ED /* CoreDataUtils.swift */,
+				83F4B22A221D96F30081F8ED /* AppDelegate.swift */,
 				83F4B20A221C69BB0081F8ED /* CoreDataUtils.h */,
 				83F4B20B221C69BB0081F8ED /* Info.plist */,
 			);
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F4B22B221D96F30081F8ED /* AppDelegate.swift in Sources */,
 				83F4B221221C88760081F8ED /* AmigoSecretoCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
